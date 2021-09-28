@@ -165,7 +165,7 @@ body {
 
 .boy-animated {
     border: none;
-    background: url(/img/boy1.png);
+    background: blue url(../img/boy1.png);
     display: block;
     width: 250px;
     height: 250px;
@@ -190,7 +190,7 @@ body {
 }
 
 .boy-animated:hover {
-    background: url(/img/boy2.png);
+    background: blue url(../img/boy2.png);
     overflow: hidden;
     border: none;
 }
@@ -219,7 +219,7 @@ body {
 }
 
 .boy-animated:active{
-    background: url(/img/boy3.png);
+    background: blue url(../img/boy3.png);
     overflow: visible;
     border: none;
     animation: shaking 1.5s infinite;
